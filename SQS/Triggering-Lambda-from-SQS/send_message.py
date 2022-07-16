@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.7
+#!/usr/bin/env python3.10
 # -*- coding: utf-8 -*-
 import argparse
 import logging
