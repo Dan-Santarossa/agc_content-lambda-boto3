@@ -18,6 +18,7 @@
     },
     {
       "Action": [
+        "sqs:Describe*",
         "sqs:Get*",
         "sqs:List*",
         "sqs:DeleteMessage",
@@ -26,5 +27,5 @@
       "Effect": "Allow",
       "Resource": "arn:aws:sqs:us-east-1:123456789012:Messages"
     }
-      ]
+  ]
 }
